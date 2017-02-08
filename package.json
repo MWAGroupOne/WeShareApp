@@ -7,11 +7,18 @@
   },
   "dependencies": {
     "body-parser": "~1.15.2",
-    "cookie-parser": "~1.4.3",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
     "debug": "~2.2.0",
     "ejs": "~2.5.2",
     "express": "~4.14.0",
+    "express-session": "^1.15.0",
+    "express-validator": "^3.1.2",
+    "helmet": "^3.4.0",
     "less-middleware": "~2.2.0",
+    "line-reader": "^0.4.0",
+    "mongodb": "^2.2.22",
+    "mongoskin": "^2.1.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
   }
