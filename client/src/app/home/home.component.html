@@ -14,8 +14,15 @@
             <li class="active"><a  [routerLink]="['home']">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a [routerLink]="['additem']">Add Item</a></li>
+            <!--<li></li>-->
+        
           </ul>
+           <ul class="nav navbar-nav navbar-right">
+             <!--<button  (click)="logout()" class="basic-btn">Logout</button>-->
+          <li><button  (click)="logout()" type="button" class="btn btn-danger">Log out</button><li>
+      </ul>
         </div><!--/.nav-collapse -->
+        
       </div>
     </nav>
 
